@@ -1,0 +1,21 @@
+.navbar-container{
+  display: flex;
+  justify-content: flex-start;
+  margin: 0;
+  padding: 18px;
+  background-color: rgb(224, 217, 217);
+
+  .nav-link{
+    text-decoration: none;
+    margin-left: 6px;
+
+    .nav-link-btn{
+      color: rgb(110, 116, 122);
+
+      &:hover {
+        color: red;
+      }
+      
+    }
+  }
+}
